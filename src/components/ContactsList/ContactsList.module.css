@@ -1,0 +1,11 @@
+.contactsListItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contactsName {
+    font-size: 16px;
+    margin-right: 10px;
+  }
