@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { filteredContact } from "../../redux/contacts/filtersSlice";
+import { filteredContact } from '../../redux/contacts/filtersSlice';
 import { TextField } from "@mui/material";
 
 const css = {

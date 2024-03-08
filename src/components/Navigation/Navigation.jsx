@@ -1,6 +1,6 @@
 import { Home } from "@mui/icons-material";
 import { Button } from "@mui/material";
-import { useAuth } from "./hooks/useAuth";
+import { useAuth } from './hooks/useAuth';
 import { NavLink } from "react-router-dom";
 
 export const Navigation = () => {

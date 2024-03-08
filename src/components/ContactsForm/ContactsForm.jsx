@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addContact } from "./redux/contacts/operations";
-import { selectContacts } from "./redux/contacts/selectors";
+import { addContact } from './../redux/contacts/operations';
+import { selectContacts } from './../redux/contacts/selectors';
 import { Button, TextField } from "@mui/material";
 
 const css = {

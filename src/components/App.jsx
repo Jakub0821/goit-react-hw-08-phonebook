@@ -1,12 +1,12 @@
 import { useEffect, lazy } from "react";
 import { useDispatch } from "react-redux";
-import { fetchContacts } from "./redux/contacts/operations";
+import { fetchContacts } from './../redux/contacts/operations';
 import { Route, Routes } from "react-router-dom";
-import { RestrictedRoute } from "./RestrictedRoute/RestrictedRoute";
-import { PrivateRoute } from "./PrivateRoute/PrivateRoute";
-import { refreshUser } from "./redux/auth/operations";
-import { useAuth } from "./hooks/useAuth";
-import { Layout } from "./layouts/RootLayout/RootLayout";
+import { RestrictedRoute } from './RestrictedRoute/RestrictedRoute';
+import { PrivateRoute } from './PrivateRoute/PrivateRoute';
+import { refreshUser } from './../redux/auth/operations';
+import { useAuth } from './hooks/useAuth';
+import { Layout } from './layouts/RootLayout/RootLayout';
 
 const LoginPage = lazy(() =>
   import("pages/Login/Login" /* webpackChunkName: "login-page" */)
