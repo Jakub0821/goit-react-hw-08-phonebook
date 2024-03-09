@@ -1,13 +1,13 @@
-import { Filter } from "../../components/Filter/Filter";
-import { ContactsForm } from "../../components/ContactsForm/ContactsForm";
-import { ContactsList } from "../../components/ContactsList/ContactsList";
-import { selectError, selectLoading } from "redux/contacts/selectors";
-import { useSelector } from "react-redux";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Filter } from '../../components/Filter/Filter';
+import { ContactsForm } from '../../components/ContactsForm/ContactsForm';
+import { ContactsList } from '../../components/ContactsList/ContactsList';
+import { selectError, selectLoading } from './../../redux/contacts/selectors';
+import { useSelector } from 'react-redux';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const css = {
-  containerDiv: ["flex", "mb-4", "gap-4"].join(" "),
-  contactsDiv: ["mt-6"],
+  containerDiv: ['flex', 'mb-4', 'gap-4'].join(' '),
+  contactsDiv: ['mt-6'],
 };
 
 const Phonebook = () => {
