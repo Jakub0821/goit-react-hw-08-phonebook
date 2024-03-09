@@ -1,21 +1,21 @@
-import { Button, TextField } from "@mui/material";
-import { useDispatch } from "react-redux";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { register } from './../redux/auth/operations';
+import { Button, TextField } from '@mui/material';
+import { useDispatch } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { register } from './../../redux/auth/operations';
 
 const css = {
-  containerDiv: ["flex", "justify-center", "pt-32"].join(" "),
+  containerDiv: ['flex', 'justify-center', 'pt-32'].join(' '),
   registerForm: [
-    "flex",
-    "flex-col",
-    "border-2",
-    "p-14",
-    "bg-white",
-    "rounded-2xl",
-    "shadow-lg",
-  ].join(" "),
-  label: "mb-5",
+    'flex',
+    'flex-col',
+    'border-2',
+    'p-14',
+    'bg-white',
+    'rounded-2xl',
+    'shadow-lg',
+  ].join(' '),
+  label: 'mb-5',
 };
 
 export const RegisterForm = () => {
@@ -31,8 +31,8 @@ export const RegisterForm = () => {
     };
 
     if (registerData.name.lenght < 2) {
-      return ToastContainer.error("Name must be at least 2 characters long", {
-        position: "top-right",
+      return ToastContainer.error('Name must be at least 2 characters long', {
+        position: 'top-right',
         autoClose: 3000,
         hideprogressBar: false,
         closeOnClick: true,

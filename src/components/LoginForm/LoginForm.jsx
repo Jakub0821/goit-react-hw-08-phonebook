@@ -1,19 +1,19 @@
-import { login } from './redux/auth/operations';
-import { useDispatch } from "react-redux";
-import { Button, TextField } from "@mui/material";
+import { login } from './../../redux/auth/operations';
+import { useDispatch } from 'react-redux';
+import { Button, TextField } from '@mui/material';
 
 const css = {
-  containerDiv: ["flex", "justify-center", "mt-28"].join(" "),
+  containerDiv: ['flex', 'justify-center', 'mt-28'].join(' '),
   loginForm: [
-    "flex",
-    "flex-col",
-    "border-2",
-    "p-14",
-    "bg-white",
-    "rounded-2xl",
-    "shadow-lg",
-  ].join(" "),
-  label: "mb-5",
+    'flex',
+    'flex-col',
+    'border-2',
+    'p-14',
+    'bg-white',
+    'rounded-2xl',
+    'shadow-lg',
+  ].join(' '),
+  label: 'mb-5',
 };
 
 export const LoginForm = () => {
